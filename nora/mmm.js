@@ -1,13 +1,13 @@
 // Initialize Howler.js audio players for each file
 var sounds = [
     new Howl({
-        src: ['mp3/ipm1.mp3'],
+        src: ['mp3/nora1.mp3'],
         onplay: function() { handlePlay(); updateCurrentSeekPoint(); },
         onseek: updateCurrentSeekPoint,
         onend: playNextFile
     }),
     new Howl({
-      src: ['mp3/ipm2.mp3'],
+      src: ['mp3/nora2.mp3'],
       onplay: function() { handlePlay(); updateCurrentSeekPoint(); },
       onseek: updateCurrentSeekPoint,
       onend: playNextFile
